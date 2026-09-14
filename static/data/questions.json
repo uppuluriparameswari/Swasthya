@@ -1,0 +1,114 @@
+[
+  {
+    "question": "How would you rate your anxiety level lately?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+    "question": "How do you feel about your self-esteem these days?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+    "question": "How would you rate your mental health history?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+    "question": "How would you rate your experiences with depression lately?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+    "question": "How would you rate the severity of your headaches in recent times?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+    "question": "How would you rate your blood pressure readings lately?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
+  },
+  {
+      "question": "How would you rate the quality of your sleep on a scale of 1 to 5?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How frequently do you experience breathing problems?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How would you rate the noise level in your environment?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How would you rate your current living conditions?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How safe do you feel in your current environment, on a scale of 1 to 5?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How would you rate the satisfaction of your basic needs, such as food, shelter, and clothing, etc?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How would you rate your level of concern about your future career on a scale of 1 to 5?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  },
+  {
+      "question": "How would you rate the level of social support you currently have?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "choice5": "5"
+  }
+]

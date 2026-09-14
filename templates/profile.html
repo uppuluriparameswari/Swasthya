@@ -1,0 +1,46 @@
+{% extends 'header.html' %}
+{% block content %}
+    {% block title %}
+    <title>TranquilAura</title>
+    {% endblock %}
+    <div class="container">
+    <a href="#" onclick="runMLModel()">
+        <img src="..\static\img\kappa (1) (1).png" alt="">
+    </a>
+    <p> Click here to find your chance of being autistic</p>
+
+    </div>
+    
+    <!-- JavaScript function to run ML model -->
+    <script>
+        function runMLModel() {
+            // Assuming image data is sent as base64 encoded string
+            var image = document.querySelector('img');
+            var canvas = document.createElement('canvas');
+            canvas.width = image.width;
+            canvas.height = image.height;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(image, 0, 0);
+            var imageData = canvas.toDataURL('image/jpeg'); // Convert image to base64 encoded string
+            
+            // Send image data to Flask backend
+            fetch('/predict', {
+                method: 'POST',
+                body: JSON.stringify({image: imageData}),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Handle response from the Flask backend
+                console.log('Prediction:', data.prediction);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+
+
+
+
+{% endblock %}

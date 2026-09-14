@@ -1,0 +1,38 @@
+{% extends 'q_header.html' %}
+{% block content %}
+    {% block title %}
+    <title>TranquilAura</title>
+    {% endblock %}
+
+  <div class="container hidden" id="test">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 mb-5">
+        <h1>Output is {{ output }}</h1>
+
+        <div id="High" style="display: none;">
+          High Recommendations
+        </div>
+        <div id="Mid" style="display: none;">
+          Medium Recommendations
+        </div>
+        <div id="Low" style="display: none;">
+          Low Recommendations
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+  message = "{{ output }}"
+  message = parseInt(message)
+  if(message<=33){
+      document.getElementById('Low').style.display = "block"
+  }else if (message<=66){
+      document.getElementById('Mid').style.display = "block"
+  }else{
+      document.getElementById('High').style.display = "block"
+  }
+</script>
+  {% endblock %}
+
